@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- Header: home -> Hero, resume, about, contact, etc -->
+<div class="d-flex gap-2 justify-content-center py-5">
+    <span class="badge text-bg-dark rounded-pill"><a href="#home">Home</a></span>
+    <span class="badge text-bg-secondary rounded-pill"><a href="./public/proj1/resume.html">Resume</a></span>
+    <span class="badge text-bg-success rounded-pill"><a href="#projects">Projects</a></span>
+<!--     <span class="badge text-bg-danger rounded-pill">Danger</span> -->
+    <span class="badge text-bg-warning rounded-pill"><a href="./public/proj1/public/hobbies.html">Hobbies</a></span>
+    <span class="badge text-bg-info rounded-pill"><a href="./public/proj1/public/contact.html">Contact</a></span>
+<!--     <span class="badge text-bg-light rounded-pill">contact</span>
+    <span class="badge text-bg-dark rounded-pill">Dark</span> -->
+  </div>
+
+
+
+<!-- Hero -->
+<div class="container col-xxl-8 px-4 py-5" id="home">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./src/img/pixton-avatar-headshot-kleber.png" class="d-block mx-lg-auto img-fluid" alt="my avatar" height="10%" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi! I'm Kleber</h1>
+        <p class="lead">I'm a statistics professor at UFRPE - Brazil, with background in math and computer science. 
+            I'm eager to expand my skill set by venturing into web development, 
+            where I can leverage my analytical abilities and coding knowledge 
+            to create interactive and data-driven online solutions. 
+            It's a promising fusion of my interests and expertise.</p>
+
+<!--         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- projects -->
+  <div class="bd-example m-0 border-0" id="projects">
+    <h2>Projects</h2>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="div-center"> <a href="./public/proj1/resume.html"><img src="./src/img/proj1.png" alt="project 1: resume" class="img-fluid"></a></div>
+        </div>
+        <div class="carousel-item ">
+          <div class="div-center"><a href="./public/proj2/mondrian.html"><img src="./src/img/proj2.png" alt="project 2: mondrian compsition" class="img-fluid"></a></div>
+        </div>
+        <div class="carousel-item">
+          <div class="div-center"><a href="./public/proj3/mean.html"><img src="./src/img/proj3.png" alt="project 3: geometric animation" class="img-fluid"></a></div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+
+
+
+    <!-- Footer: home -> Hero, resume, about, contact, etc -->
+    <div class="d-flex gap-2 justify-content-center py-5">
+      <span class="badge text-bg-dark rounded-pill"><a href="#home">Home</a></span>
+      <span class="badge text-bg-secondary rounded-pill"><a href="./public/proj1/resume.html">Resume</a></span>
+      <span class="badge text-bg-success rounded-pill"><a href="#projects">Projects</a></span>
+  <!--     <span class="badge text-bg-danger rounded-pill">Danger</span> -->
+      <span class="badge text-bg-warning rounded-pill"><a href="./public/proj1/public/hobbies.html">Hobbies</a></span>
+      <span class="badge text-bg-info rounded-pill"><a href="./public/proj1/public/contact.html">Contact</a></span>
+  <!--     <span class="badge text-bg-light rounded-pill">contact</span>
+      <span class="badge text-bg-dark rounded-pill">Dark</span> -->
+    </div>
+
+
+<div>
+  <footer>
+    <p>© Kleber Barros. All rights reserved.</p>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+</body>
+</html>
+
+
+

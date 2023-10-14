@@ -1,0 +1,48 @@
+body {
+	background: linear-gradient(-45deg, #0000ff, #0000ffaa, #23d5ab00, #ffffff);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+h1{
+	font-family: 'Share Tech Mono', monospace;
+}
+
+a {
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
+  }
+
+
+  .div-center{
+	display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  }
+
+
+  .div-grid {
+	display: grid;
+	place-items: center;
+	height: 30vh; 
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+	grid-template-rows: repeat(2, 1fr); 
+	grid-gap: 20px;
+  }
+
